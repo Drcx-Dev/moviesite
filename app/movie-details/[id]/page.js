@@ -6,7 +6,6 @@ import { genres } from "@/app/genres";
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { motion } from "framer-motion"; // Подключаем framer-motion для анимаций
-import Link from "next/link";
 
 const MovieDetails = () => {
   const { id } = useParams();
